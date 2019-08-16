@@ -1,0 +1,18 @@
+@import '../../node_modules/bulma/sass/utilities/all';
+@import '../../node_modules/bulma/bulma';
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.move-enter-active, .move-leave-active {
+  transform: translateX(0);
+  transition : all .3s linear;
+ }
+
+ .move-enter, .move-leave-to {
+   transform : translateX(100%);
+ }
